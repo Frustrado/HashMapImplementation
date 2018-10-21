@@ -1,0 +1,188 @@
+\hypertarget{class_hash_set}{}\section{Hash\+Set$<$ T $>$ Class Template Reference}
+\label{class_hash_set}\index{Hash\+Set$<$ T $>$@{Hash\+Set$<$ T $>$}}
+
+
+Klasa \hyperlink{class_hash_set}{Hash\+Set}.  
+
+
+
+
+{\ttfamily \#include $<$Hash\+Set.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_hash_set_af3813c169024060da2044aafe3851a8d}{Hash\+Set} ()\hypertarget{class_hash_set_af3813c169024060da2044aafe3851a8d}{}\label{class_hash_set_af3813c169024060da2044aafe3851a8d}
+
+\begin{DoxyCompactList}\small\item\em Konstruktor. \end{DoxyCompactList}\item 
+\hyperlink{class_hash_set_a246e09f4a22069df2ec67ddf5a4d6958}{Hash\+Set} (const \hyperlink{class_hash_set}{Hash\+Set}$<$ T $>$ \&orig)\hypertarget{class_hash_set_a246e09f4a22069df2ec67ddf5a4d6958}{}\label{class_hash_set_a246e09f4a22069df2ec67ddf5a4d6958}
+
+\begin{DoxyCompactList}\small\item\em Konstruktor kopiujacy. \end{DoxyCompactList}\item 
+\hyperlink{class_hash_set_a58686b84c9bb5e744e279e5d52b8c656}{$\sim$\+Hash\+Set} ()\hypertarget{class_hash_set_a58686b84c9bb5e744e279e5d52b8c656}{}\label{class_hash_set_a58686b84c9bb5e744e279e5d52b8c656}
+
+\begin{DoxyCompactList}\small\item\em Destruktor czyszczacy pamiec. \end{DoxyCompactList}\item 
+void \hyperlink{class_hash_set_a01ec48fce289b5c3ed6194f2c7d951de}{add} (const T \&s)
+\begin{DoxyCompactList}\small\item\em Dodaje do koszyka. \end{DoxyCompactList}\item 
+void \hyperlink{class_hash_set_ad239cc6e812f4fa03c5f57b7c9e394f5}{print\+Set} ()\hypertarget{class_hash_set_ad239cc6e812f4fa03c5f57b7c9e394f5}{}\label{class_hash_set_ad239cc6e812f4fa03c5f57b7c9e394f5}
+
+\begin{DoxyCompactList}\small\item\em Drukuje obiekt. \end{DoxyCompactList}\item 
+bool \hyperlink{class_hash_set_a6615eac8096b3ba6cdf6c2803cde786b}{is\+In\+Set} (const T \&s)\hypertarget{class_hash_set_a6615eac8096b3ba6cdf6c2803cde786b}{}\label{class_hash_set_a6615eac8096b3ba6cdf6c2803cde786b}
+
+\begin{DoxyCompactList}\small\item\em Sprawdza czy dany element jest w zbiorze. \end{DoxyCompactList}\item 
+unsigned \hyperlink{class_hash_set_aafd311c4cd17f5c3426c97dd3e226868}{length} ()
+\begin{DoxyCompactList}\small\item\em Zlicza ilosc obiektow. \end{DoxyCompactList}\item 
+\hyperlink{class_hash_set}{Hash\+Set} \hyperlink{class_hash_set_a08da209c1df7dbb7b5492795aa56dbae}{operator+} (const \hyperlink{class_hash_set}{Hash\+Set}$<$ T $>$ \&)
+\begin{DoxyCompactList}\small\item\em Funkcja dodaje do siebie dwa obiekty. \end{DoxyCompactList}\item 
+\hyperlink{class_hash_set}{Hash\+Set} \hyperlink{class_hash_set_a3abdaa3b3d16eb3482a172145fe52cf9}{operator-\/} (const \hyperlink{class_hash_set}{Hash\+Set}$<$ T $>$ \&)
+\begin{DoxyCompactList}\small\item\em Funkcja odejmuje od siebie dwa obiekty. \end{DoxyCompactList}\item 
+\hyperlink{class_hash_set}{Hash\+Set} \hyperlink{class_hash_set_af00b260b513c99b3e54fecdd2ef32951}{operator$\ast$} (const \hyperlink{class_hash_set}{Hash\+Set}$<$ T $>$ \&)
+\begin{DoxyCompactList}\small\item\em Funkcja bioraca czesc wspolna dwoch obiektow. \end{DoxyCompactList}\item 
+void \hyperlink{class_hash_set_a2aa365ab46b522eb79053bafda263eb5}{remove} (const T \&s)
+\begin{DoxyCompactList}\small\item\em Usuwa dany element. \end{DoxyCompactList}\item 
+\hyperlink{class_list_iterator}{List\+Iterator}$<$ T $>$ $\ast$ \hyperlink{class_hash_set_ae705473c488464356c8464fbce05c7ee}{create\+Iterator} ()\hypertarget{class_hash_set_ae705473c488464356c8464fbce05c7ee}{}\label{class_hash_set_ae705473c488464356c8464fbce05c7ee}
+
+\begin{DoxyCompactList}\small\item\em Tworzy iterator. \end{DoxyCompactList}\item 
+\hyperlink{struct_bucket}{Bucket}$<$ T $>$ $\ast$ {\bfseries Begin} ()\hypertarget{class_hash_set_ac43e4a912377a0b096df5fe280bd7218}{}\label{class_hash_set_ac43e4a912377a0b096df5fe280bd7218}
+
+\item 
+\hyperlink{struct_bucket}{Bucket}$<$ T $>$ $\ast$ {\bfseries End} ()\hypertarget{class_hash_set_a8a8f4191310a7f28c1c5fc356312a539}{}\label{class_hash_set_a8a8f4191310a7f28c1c5fc356312a539}
+
+\item 
+\hyperlink{struct_bucket}{Bucket}$<$ T $>$ $\ast$ {\bfseries Next} (int index)\hypertarget{class_hash_set_a16ebca3919161590ffb2e8200296f67b}{}\label{class_hash_set_a16ebca3919161590ffb2e8200296f67b}
+
+\item 
+\hyperlink{struct_bucket}{Bucket}$<$ T $>$ $\ast$ {\bfseries Prev} (int index)\hypertarget{class_hash_set_a0838720def3395d1d8049ad3d804fb85}{}\label{class_hash_set_a0838720def3395d1d8049ad3d804fb85}
+
+\item 
+\hyperlink{struct_bucket}{Bucket}$<$ T $>$ $\ast$ {\bfseries get\+Elem} (int index)\hypertarget{class_hash_set_a722951407ebd96fbc0d70e0a5601de70}{}\label{class_hash_set_a722951407ebd96fbc0d70e0a5601de70}
+
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries List\+Iterator$<$ T $>$}\hypertarget{class_hash_set_aa8b5ec32a370e05b6873477d1ef083e6}{}\label{class_hash_set_aa8b5ec32a370e05b6873477d1ef083e6}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\\*
+class Hash\+Set$<$ T $>$}
+
+Klasa \hyperlink{class_hash_set}{Hash\+Set}. 
+
+\subsection{Member Function Documentation}
+\index{Hash\+Set@{Hash\+Set}!add@{add}}
+\index{add@{add}!Hash\+Set@{Hash\+Set}}
+\subsubsection[{\texorpdfstring{add(const T \&s)}{add(const T &s)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ void {\bf Hash\+Set}$<$ T $>$\+::add (
+\begin{DoxyParamCaption}
+\item[{const T \&}]{s}
+\end{DoxyParamCaption}
+)}\hypertarget{class_hash_set_a01ec48fce289b5c3ed6194f2c7d951de}{}\label{class_hash_set_a01ec48fce289b5c3ed6194f2c7d951de}
+
+
+Dodaje do koszyka. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ciag} & znakow \\
+\hline
+\end{DoxyParams}
+\index{Hash\+Set@{Hash\+Set}!length@{length}}
+\index{length@{length}!Hash\+Set@{Hash\+Set}}
+\subsubsection[{\texorpdfstring{length()}{length()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ unsigned {\bf Hash\+Set}$<$ T $>$\+::length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_hash_set_aafd311c4cd17f5c3426c97dd3e226868}{}\label{class_hash_set_aafd311c4cd17f5c3426c97dd3e226868}
+
+
+Zlicza ilosc obiektow. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Obiekt} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Ilosc obiektow 
+\end{DoxyReturn}
+\index{Hash\+Set@{Hash\+Set}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Hash\+Set@{Hash\+Set}}
+\subsubsection[{\texorpdfstring{operator$\ast$(const Hash\+Set$<$ T $>$ \&)}{operator*(const HashSet< T > &)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ {\bf Hash\+Set}$<$ T $>$ {\bf Hash\+Set}$<$ T $>$\+::operator$\ast$ (
+\begin{DoxyParamCaption}
+\item[{const {\bf Hash\+Set}$<$ T $>$ \&}]{h}
+\end{DoxyParamCaption}
+)}\hypertarget{class_hash_set_af00b260b513c99b3e54fecdd2ef32951}{}\label{class_hash_set_af00b260b513c99b3e54fecdd2ef32951}
+
+
+Funkcja bioraca czesc wspolna dwoch obiektow. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Obiekty} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nowy obiekt 
+\end{DoxyReturn}
+\index{Hash\+Set@{Hash\+Set}!operator+@{operator+}}
+\index{operator+@{operator+}!Hash\+Set@{Hash\+Set}}
+\subsubsection[{\texorpdfstring{operator+(const Hash\+Set$<$ T $>$ \&)}{operator+(const HashSet< T > &)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ {\bf Hash\+Set}$<$ T $>$ {\bf Hash\+Set}$<$ T $>$\+::operator+ (
+\begin{DoxyParamCaption}
+\item[{const {\bf Hash\+Set}$<$ T $>$ \&}]{h2}
+\end{DoxyParamCaption}
+)}\hypertarget{class_hash_set_a08da209c1df7dbb7b5492795aa56dbae}{}\label{class_hash_set_a08da209c1df7dbb7b5492795aa56dbae}
+
+
+Funkcja dodaje do siebie dwa obiekty. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Obiekty} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nowy Obiekt 
+\end{DoxyReturn}
+\index{Hash\+Set@{Hash\+Set}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Hash\+Set@{Hash\+Set}}
+\subsubsection[{\texorpdfstring{operator-\/(const Hash\+Set$<$ T $>$ \&)}{operator-(const HashSet< T > &)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ {\bf Hash\+Set}$<$ T $>$ {\bf Hash\+Set}$<$ T $>$\+::operator-\/ (
+\begin{DoxyParamCaption}
+\item[{const {\bf Hash\+Set}$<$ T $>$ \&}]{h}
+\end{DoxyParamCaption}
+)}\hypertarget{class_hash_set_a3abdaa3b3d16eb3482a172145fe52cf9}{}\label{class_hash_set_a3abdaa3b3d16eb3482a172145fe52cf9}
+
+
+Funkcja odejmuje od siebie dwa obiekty. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Obiekty} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nowy obiekt 
+\end{DoxyReturn}
+\index{Hash\+Set@{Hash\+Set}!remove@{remove}}
+\index{remove@{remove}!Hash\+Set@{Hash\+Set}}
+\subsubsection[{\texorpdfstring{remove(const T \&s)}{remove(const T &s)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ void {\bf Hash\+Set}$<$ T $>$\+::remove (
+\begin{DoxyParamCaption}
+\item[{const T \&}]{s}
+\end{DoxyParamCaption}
+)}\hypertarget{class_hash_set_a2aa365ab46b522eb79053bafda263eb5}{}\label{class_hash_set_a2aa365ab46b522eb79053bafda263eb5}
+
+
+Usuwa dany element. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Ciag} & znakow \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Hash\+Set.\+h\item 
+Hash\+Set.\+cpp\end{DoxyCompactItemize}

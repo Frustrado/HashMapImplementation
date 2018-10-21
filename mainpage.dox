@@ -1,0 +1,43 @@
+/*! \mainpage Projekt 3
+ *
+ * \section intro_sec HashSet
+ *
+ *HashSet to kolekcja unikatowych elementow ktora wykorzystuje funkcje 'hashujaca' 
+ *Rozwiazaniem jest tablica list jednokierunkowych. Numer komorki do ktorej trafi element jest obliczany za pomoca funkcji 'hashujacej'.
+ *Jesli napotkany element juz istnieje nie jest on dodawany.
+ *Na samym poczatku wszystkie komorki sa puste. Uzycie szablonu pozwala na uzywanie elementow roznego typu(int, string, float itp.).
+ * \section intro_sec3 Metody i operatory 
+ * Opisane jest to w zakladce HashSet * \section intro_sec4 Mieszkanie
+ * \subsection step1 Przeglad
+ * Mieszkanie jest klasa reprezentujaca mieszkanie. Pola jakie zawiera klasa : \li 
+ *  string \b nazwWlasciciela - nazwa wlasciciela mieszkania\li
+ *  float \b powierzchnia - powierzchnia mieszkania\li
+ *  int \b liczbaPokoi - liczba pokoi w  mieszkaniu\li
+ *  bool \b zamieszkane - mowi o tym czy mieszkanie jest zamieszkane czy puste \li
+ *  static unsigned \b liczbaWczytanychMieszk - licznik poprawnie wczytanych obiektów mieszkań ze strumieni
+ *  \section intro_sec10 Metody i operatory
+ * Opisane jest to w zakladce Mieszkanie.
+ *
+ * \section intro_sec5 Bucket
+ * \subsection step1 Przeglad
+ *Bucket jest struktura ktora umozliwia tworzenie listy jednokierunkowej do ktorej dodawana sa elementy w odpowiednich komorkach tablicy. 
+ *  \section intro_sec10 Metody i operatory
+ * Opisane jest to w zakladce Bucket.
+  * \section intro_sec9 Co zostalo dodane
+ *Do projektu 2 dodałem dwie klasy pochodne:
+\li 
+ * finalna MieszkanieHipoteczne\li
+ * MieszkanieWynajmowane\li
+ a także wirtualna klase bazowa Siedziba
+
+ W mainie pokazalem przykladowe rzutowanie w dol i w gore, wskazniki na obiekty. Oczywiscie zgodnie z wymogiem uzylem dodatkowo slowa kluczowego protected w klasie Siedziba.
+
+ * \section intro_sec6 Obsluga sytuacji wyjatkowych:
+ Została zastosowana przy uzyciu funkcji remove(). Przy probie usuniecia nieistniejacego obiektu, rzucany jest obiekt typu T.
+
+  * \section intro_sec7 Iterator:
+  Zostala utworzona klasa iteratora, ktora zostala zaimplementowana z pliku z HashSetem. Zawiera funkce zgodne z zalozeniami projektu(next, prev, begin, end...)
+ * \section intro_sec8 Operatory strumieniowe w klasach:
+ W klasie Siedziba zostal przeciazony operator <<
+ W klasie MieszkanieWynajmowane zostaly przeciazone operatory <<,>>
+ W klasie MieszkanieHipoteczne nie przeciazylem zadnych operatorow w celu pokazania efektu*/

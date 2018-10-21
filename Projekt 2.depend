@@ -1,0 +1,125 @@
+# depslib dependency file v1.0
+1465997326 source:c:\users\pawel.figat\desktop\projekt1\nowy folder\hashset.cpp
+	"HashSet.h"
+	<iostream>
+	<sstream>
+
+1465997850 c:\users\pawel.figat\desktop\projekt1\nowy folder\hashset.h
+	<string>
+	<iostream>
+
+1465996846 source:c:\users\pawel.figat\desktop\projekt1\nowy folder\main.cpp
+	<cstdlib>
+	<sstream>
+	<string>
+	<iostream>
+	"Mieszkanie.h"
+	"MieszkanieHipoteczne.h"
+	"MieszkanieWynajmowane.h"
+	"HashSet.h"
+	"HashSet.cpp"
+
+1465928922 c:\users\pawel.figat\desktop\projekt1\nowy folder\mieszkanie.h
+	<string>
+	<istream>
+	<ostream>
+	<iostream>
+	"Siedziba.h"
+
+1465997326 c:\users\pawel.figat\desktop\projekt1\nowy folder\hashset.cpp
+	"HashSet.h"
+	<iostream>
+	<sstream>
+
+1465995446 source:c:\users\pawel.figat\desktop\projekt1\nowy folder\mieszkanie.cpp
+	"Mieszkanie.h"
+
+1465922832 source:c:\users\pawel.figat\desktop\projekt1\nowy folder\mieszkaniehipoteczne.cpp
+	"MieszkanieHipoteczne.h"
+
+1465928736 c:\users\pawel.figat\desktop\projekt1\nowy folder\mieszkaniehipoteczne.h
+	"Mieszkanie.h"
+	<string>
+	<istream>
+	<ostream>
+
+1465927512 source:c:\users\pawel.figat\desktop\projekt1\nowy folder\mieszkaniewynajmowane.cpp
+	"MieszkanieWynajmowane.h"
+
+1465928736 c:\users\pawel.figat\desktop\projekt1\nowy folder\mieszkaniewynajmowane.h
+	"Mieszkanie.h"
+	<string>
+	<istream>
+	<ostream>
+
+1465994978 c:\users\pawel.figat\desktop\projekt1\nowy folder\siedziba.h
+	<string>
+	<istream>
+	<ostream>
+	<iostream>
+
+1465926368 source:c:\users\pawel.figat\desktop\projekt1\nowy folder\siedziba.cpp
+	"Siedziba.h"
+
+1465993726 source:c:\users\max\desktop\bin\hashset.cpp
+	"HashSet.h"
+	<iostream>
+	<sstream>
+
+1466070250 c:\users\max\desktop\bin\hashset.h
+	<string>
+	<iostream>
+
+1465994754 source:c:\users\max\desktop\bin\main.cpp
+	<cstdlib>
+	<sstream>
+	<string>
+	<iostream>
+	"Mieszkanie.h"
+	"MieszkanieHipoteczne.h"
+	"MieszkanieWynajmowane.h"
+	"HashSet.h"
+	"HashSet.cpp"
+
+1466067942 c:\users\max\desktop\bin\mieszkanie.h
+	<string>
+	<istream>
+	<ostream>
+	<iostream>
+	"Siedziba.h"
+
+1466068235 c:\users\max\desktop\bin\siedziba.h
+	<string>
+	<istream>
+	<ostream>
+	<iostream>
+
+1466068235 c:\users\max\desktop\bin\mieszkaniehipoteczne.h
+	"Mieszkanie.h"
+	<string>
+	<istream>
+	<ostream>
+
+1466068235 c:\users\max\desktop\bin\mieszkaniewynajmowane.h
+	"Mieszkanie.h"
+	<string>
+	<istream>
+	<ostream>
+
+1465993726 c:\users\max\desktop\bin\hashset.cpp
+	"HashSet.h"
+	<iostream>
+	<sstream>
+
+1466067146 source:c:\users\max\desktop\bin\mieszkanie.cpp
+	"Mieszkanie.h"
+
+1466068123 source:c:\users\max\desktop\bin\mieszkaniehipoteczne.cpp
+	"MieszkanieHipoteczne.h"
+
+1466068041 source:c:\users\max\desktop\bin\mieszkaniewynajmowane.cpp
+	"MieszkanieWynajmowane.h"
+
+1466068123 source:c:\users\max\desktop\bin\siedziba.cpp
+	"Siedziba.h"
+
